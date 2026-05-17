@@ -29,8 +29,8 @@ export default function SetupPage() {
     return (
       <div className={styles.container}>
         <div className={styles.card}>
-          <div className={styles.logo}>W</div>
-          <h1 className={styles.title}>Welcome to WorldWideView</h1>
+          <div className={styles.logo}>P</div>
+          <h1 className={styles.title}>Welcome to The Palantir</h1>
           <p className={styles.subtitle}>Create your admin account to get started</p>
 
           <form onSubmit={handleSubmit} className={styles.form}>

@@ -112,7 +112,7 @@ export function Header() {
 }}
                 >
                   <Image src="/logo/logo-icon.svg" alt="Logo" width={20} height={20} style={{ objectFit: "contain" }} />
-                  <div className="header__logo header__logo--compact">WWV</div>
+                  <div className="header__logo header__logo--compact">TP</div>
                 </a>
                 <span className="alpha-badge">ALPHA</span>
                 {isDemoAdmin && <span className="alpha-badge" style={{ background: "var(--accent-orange, #f59e0b)" }}>ADMIN</span>}
@@ -208,7 +208,7 @@ export function Header() {
             <a href="https://worldwideview.dev/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit", cursor: "pointer" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                 <Image src="/logo/logo-icon.svg" alt="Logo" width={22} height={22} style={{ objectFit: "contain" }} />
-                <div className="header__logo">WORLD WIDE VIEW</div>
+                <div className="header__logo">THE PALANTIR</div>
                 <span className="alpha-badge">ALPHA</span>
                 {isDemoAdmin && <span className="alpha-badge" style={{ background: "var(--accent-orange, #f59e0b)" }}>ADMIN</span>}
               </div>

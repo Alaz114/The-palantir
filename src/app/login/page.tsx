@@ -50,8 +50,8 @@ function LoginForm() {
     return (
       <div className={styles.container}>
         <div className={styles.card}>
-          <div className={styles.logo}>W</div>
-          <h1 className={styles.title}>Sign in to WorldWideView</h1>
+          <div className={styles.logo}>P</div>
+          <h1 className={styles.title}>Sign in to The Palantir</h1>
           <p className={styles.subtitle}>Enter your credentials to continue</p>
 
           <form onSubmit={handleSubmit} method="post" className={styles.form}>
