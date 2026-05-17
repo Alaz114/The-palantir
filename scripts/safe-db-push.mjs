@@ -1,6 +1,12 @@
 import { execSync } from 'child_process';
 
 const dbUrl = process.env.DATABASE_URL || '';
+const skipDbPush = process.env.WWV_SKIP_DB_PUSH === 'true' || process.env.WWV_SKIP_DB_PUSH === '1';
+
+if (skipDbPush) {
+  console.log('⏭️  Skipping prisma db push (WWV_SKIP_DB_PUSH is set). Schema assumed up-to-date.');
+  process.exit(0);
+}
 
 if (!dbUrl) {
   console.error("❌ ERROR: DATABASE_URL is missing.");

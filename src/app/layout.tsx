@@ -12,8 +12,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "WorldWideView | Geospatial Intelligence",
-  description: "Next-generation, open-source geospatial intelligence platform.",
+  title: "The Palantir | Geospatial Intelligence",
+  description: "The Palantir — next-generation, open-source geospatial intelligence platform.",
 };
 
 export default function RootLayout({
